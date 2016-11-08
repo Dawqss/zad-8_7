@@ -1,17 +1,8 @@
-var allNames = []
-var womensNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
-var mensNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
+var allNames = [];
+var womenNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
+var menNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
 var newName = 'Marian';
-
 var allNames = allNames.concat(womensNames, mensNames);
-console.log(allNames);
-
-var testIndexOf = allNames.indexOf(newName);
-console.log(testIndexOf);
-
-if (allNames.indexOf(newName) == -1) {
-	allNames.push(newName);
-}
 
 console.log(allNames);
 
