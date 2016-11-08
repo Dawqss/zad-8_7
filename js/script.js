@@ -2,7 +2,7 @@ var allNames = [];
 var womenNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
 var menNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
 var newName = 'Marian';
-var allNames = allNames.concat(womensNames, mensNames);
+var allNames = allNames.concat(womenNames, menNames);
 
 console.log(allNames);
 
